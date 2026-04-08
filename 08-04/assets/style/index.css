@@ -1,0 +1,143 @@
+/*Exercicio 1: 
+
+div {
+background-color: brown;
+}
+
+span {
+    background-color: blue;
+}
+
+1-Qual elemento ocupa a linha inteira? o elemento div
+2-Qual fica na mesma linha? o elemento span
+
+
+
+Exercicio 2:
+
+div {
+background-color: brown;
+height: 200px solid blue;
+
+}
+
+1-Elas ficam lado a lado ou uma abaixo da outra? Por quê? Elas ficam uma em baixo da outra, porque é display-block
+
+
+Exercicio 3: 
+
+span {
+    background-color: blue;
+    width: 200px;
+}
+
+A largura funcionou? Por quê? A largura não funcionou porque é display-inline, o diplay-inline não funciona largura e nem altura.
+
+
+
+Exercicio 4: 
+
+span {
+    display: inline-block;
+    background-color: blue;
+    width: 200px;
+}
+
+1-O width funciona? Sim, funcionou.
+2-O comportamento mudou? Sim, o comportamento mudou pois o display-inline-block fica com o elemento um do lado do outro e pode ser alterado a altura e a largura.
+
+
+Exercicio 5:
+
+div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+Exercicio 6:
+
+div {
+    width: 150px;
+    height: 80px;
+    background: gray;
+}
+
+span {
+    width: 150px;
+    height: 80px;
+    background: gray;
+}
+
+button {
+    width: 150px;
+    height: 80px;
+    background: gray;
+
+}
+
+1-Qual respeita width/height? o Block e o Inline-block
+2-Qual ignora? o inline
+
+
+Exercicio 7:
+
+div {
+    display: none;
+    width: 150px;
+    height: 80px;
+    background: rgb(255, 0, 0);
+}
+
+1-Qual diferença visual você percebe? Nenhuma
+
+
+Exercicio 8:
+
+a {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    margin: 10px;
+    background: rgb(255, 0, 0);
+
+}
+
+
+Exercicio 9:
+
+a {
+  display:block;
+  width: 200px;
+  background: gray;
+}
+
+Por que não funciona? Porque falta o display block
+Como corrigir? Adicione display:block;
+
+
+Exercicio 10:
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
+
+.card-title {
+    display: inline-block;
+
+}
+
+.card-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #ff0000;
+}
+
+1-qual display você usou no botão? inline-block
+2-por quê? para o botao ficar do lado do titulo
+
+*/

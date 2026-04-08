@@ -1,0 +1,137 @@
+/*
+Exercicio 1:
+
+div {
+width: 200px;
+padding: 20px solid blue;
+border: 2px; 
+background-color: gray;   
+}
+O elemento ficou maior que 200px? Por quê? Sim, ficou 244px porque o elemento se expandiu
+
+
+Exercicio 2:
+
+div {
+box-sizing: border-box;
+width: 200px;
+padding: 20px solid blue;
+border: 2px; 
+background-color: gray;   
+}
+
+O que mudou no tamanho? o elemento ficou 200px porque com o boder-box o elemento se expandiu pra dentro e nao pra fora
+
+
+Exercicio 3:
+
+.box {
+width: 150px;
+height: 100px;
+padding: 10px solid purple;
+border: 10px solid black; 
+margin: 10px auto;
+color: white;  
+}
+
+.box1 {
+
+    background-color: blue;
+}
+
+.box2 {
+
+    background-color: red;
+}
+
+Qual deles realmente afasta os elementos? O magin afasta os elementos
+
+
+Exercicio 4:
+
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+Qual o tamanho TOTAL da caixa? O tamanho total é 250px
+
+
+Exercicio 5:
+
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+
+Qual o tamanho agora? 200px
+
+
+Exercicio 6:
+
+.box {
+  padding: 20px;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+Por que isso não funciona sem width? Porque sem uma largura definida, a largura ocupa de ponta a ponta, fazendo com que nao de para centralizar o elemento.
+
+
+Exercicio 7:
+
+.box1, .box2 {
+  height: 100px;
+  margin: 20px;
+}
+
+Qual é o espaço entre elas? Por que não é 40px? 20px, não é 40px porque não precisa somar.
+
+
+ Exercicio 8: 
+ 
+.card {
+  box-sizing: content-box;
+  width: 250px;
+  padding: 20px;
+  border: 3px solid black;
+  margin: 10px;
+  background-color: white;
+}
+div h2 {
+ color: brown;
+}
+
+
+Exercicio 9:
+
+.box {
+  width: 200px;
+  padding: 30px;
+  border: 10px solid black;
+  box-sizing: border-box;
+}
+O tamanho da caixa fica maior que 200px por causa do padding e da border, e isso quebra o layout.
+A solução é usar box-sizing: border-box.
+
+
+Exercicio 10:
+
+.container {
+      display: flex;
+}
+
+.card {
+      margin: 20px;
+      width: 30%;
+      padding: 20px;
+      border: 1px solid black;
+      box-sizing: border-box;
+      background-color: lightgray;
+}
+
+*/
