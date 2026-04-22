@@ -1,0 +1,70 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.conteiner-pai {
+    display: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+.conteiner-pai img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: 1;
+}
+
+.quiz-questions {
+ 
+  position: relative;
+  z-index: 2;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:
+ rgba(68, 57, 228, 0.253) padding-box,
+ linear-gradient(45deg, #000, #04383a) border-box;
+  box-shadow: 0 8px 20px rgba(3, 172, 150, 0.719);
+}
+
+.active{
+display: flex;
+}
+
+div > h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 95%;
+}
+
+div > button {
+  padding: 3px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px; 
+  background-color: rgb(69, 0, 230);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: rgb(22, 4, 46);
+}
