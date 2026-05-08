@@ -1,0 +1,43 @@
+ /* Este é o comentario do css
+ */
+
+
+ /*Exemplo: se eu quiser mudar a cor de fundo da pagina, posso utilizar o seletor 'body' 
+ 
+ body{
+   estilo que quero aplicar
+ }
+ */
+ body{
+
+    background-color: rgb(255, 255, 255); /* Troca a cor de fundo */
+    color: rgb(0, 0, 0); /* Color troca a cor do texto*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font troca a fonte das letras*/
+ }
+
+ img{
+
+    width: 1000px; /* Largura do elemento */
+    height: 500px; /* Altura do elemento */
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ button{
+
+    background-color: chocolate; /* Cor do botão */
+    border: none; /* Tira a borda padão do botao */
+    border-radius: 5px; /* Deixa os cantos arrendodados */
+    color: aliceblue; /* Muda a cor da fonte do botao */
+    padding: 5px; /* Almenta o espaçamento interno do botao */
+ }
+
+button:hover {
+background-color: burlywood;
+color: aliceblue;
+cursor: pointer;
+}
+
+h1{
+margin-left: 10px;
+
+}

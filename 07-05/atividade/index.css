@@ -1,0 +1,10 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+header{
+background-color: blue;
+position: sticky;
+top: 0px;
+}

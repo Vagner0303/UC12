@@ -1,0 +1,63 @@
+<!-- Html é uma linguagem de MARCAÇÃO. Ou seja, ela não possui logica.
+    O que ele faz?
+    Cada elemento possui uma etiqueta que chamamos de 'tag'.
+    Quando queremos criar algo, chamamos 'tag' que representa aquele elemento. 
+    Ou seja, HTML serve apenas para dezer o que existe em uma pagina. 
+
+A tag precisa ser fechada. <html> </html>
+As tags tambem possuem atributos. <html lang-"en"> </html>
+    -->
+<!DOCTYPE html>
+ <html lang="pt-BR"> <!-- html é a tag que deve envolver todo o documento -->
+      <head><!-- Contem varias informações a respeito da pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- Titulo da Pagina -->
+      </head>
+   <body><!-- Dentro desta tag é que vamos criar nossos elementos que vão aparecer para o usuario. Body significa 'corpo'.-->
+
+   <!-- h1 é a tag de titulo principal-->
+    <h1>Sobre html</h1>
+    <h2>O que é html?</h2>
+    <h3>A respeito de linguagem de marcação</h3>
+    <p>HTML (HyperText Markup Language) é a linguagem padrão para estruturar e organizar o conteúdo de páginas web, utilizando "tags" (marcações) para definir elementos como títulos, parágrafos, imagens e links.</p>
+    <!-- <hr> cria uma linha horizontal-->
+     <hr>
+    <!-- <a> </a> é a tag para links. 'a' vem de 'ancora' 
+         Ela sempre deve ser acompanhada do atributo 'href' que indica para qual link ela vai direcionar o usuario 
+    -->
+       <a href="https://i.pinimg.com/236x/2f/c5/42/2fc5429cc937124e13e1b4ff059bc1c5.jpg" target="_blank">Clique aqui</a>
+<!-- <img> é a tag de imagem.
+      Ela sempre vem com os atributos src que indica a origem da imagem onde ela esta. E o atributo alt que deve conter um texto explicativo sobre a imagem.
+      Ele é usado caso a imagem não carregue ou por software de acessibilidade. 
+-->
+      <!-- Imagem via link -->
+       <img src="https://www.estadao.com.br/emais/comportamento/tartaruga-mostrando-dedo-do-meio-vence-concurso-de-foto-mais-engracada/?srsltid=AfmBOoqwaraDImwLzTvurW4F5niYbq6CLU5qLQsBUBZ_zEktiGUywsup" alt="Tartaruga fudida">
+
+       <!-- Imagem via download -->
+        <img src="assets/images/download.jpg" alt="Sociologo">
+
+ 
+       <!-- Tag <button> </button> cria um botao -->
+        <button> Clique aqui</button>
+
+
+        <!-- Ordered List / Lista ordenada (ou seja, cria uma lista que tem numeros)-->
+        <ol>
+           <li> Item 1</li>
+           <li> Item 2</li>
+           <li> Item 3</li>
+        </ol>
+
+
+        <!-- Unordered List / Lista desordenada (ou seja, cria uma lista sem numeração)-->
+        <ul>
+           <li> Item 1</li>
+           <li> Item 2</li>
+           <li> Item 3</li>
+        </ul>
+
+   </body>
+ </html>
+
+ 
