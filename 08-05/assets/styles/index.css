@@ -1,0 +1,101 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+header{
+ position: sticky;
+ top: 0;
+ background-color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.container-menu{
+width: 330px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.container-menu nav a{
+color: white;
+text-decoration: none;
+}
+
+.container-menu nav a:hover{
+color: green;
+}
+
+.logo{
+ width: 65px;
+}
+
+.whats-link{
+position: fixed;
+bottom: 30px;
+right: 30px;
+}
+
+.whats-img{
+width: 70px;
+}
+
+.cart-container{
+position: relative;
+}
+
+.cart-container span{
+position: absolute;
+top: -5px;
+right: -4px;
+background-color: red;
+font-size: 8px;
+border-radius: 50%;
+padding: 0.5px 3px;
+color: white;
+}
+
+.menu-extra{
+position: relative;
+cursor: pointer;
+}
+
+.menu-dropdown{
+ position: absolute;
+ width: 100px;
+ background-color: rgb(0, 0, 0);
+ padding: 4px 10px;
+ border: 1px solid white;
+ display: flex;
+ flex-direction: column;
+ justify-content:space-between;
+ display: none;
+ gap: 8px;
+}
+
+.menu-extra:hover .menu-dropdown {
+display: flex;
+}
+
+.menu-dropdown a{
+color: white;
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:small;
+}
+
+.menu-dropdown a:hover{
+color: rgb(7, 102, 14);
+}
+
+
+
+
+
+
+
+
+
