@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.fundo{
+    position: absolute;
+    top: 0;
+    left: -5vh;
+    align-items: center;
+    width: 105%;
+    height: 97vh;
+    z-index: -1;
+}
+
+.logo{
+    position: absolute;
+    left: 655px;
+    display: flex;
+    width: 8vh;
+    height: 8vh;
+    
+
+}
+
+header{
+    position: relative;
+    margin: 33px auto;
+    height: 86px;
+    width: 1438px;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    border: 0.1px solid white;
+    justify-content:center;
+    align-items: center;
+    padding: 15px 30px;
+}
+.conteiner-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    font-family: "Oswald", "sans-serif";
+    font-size: 12.5px;
+    color: #ffffff;
+}
+
+.menu-1 { 
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 267px;
+    gap: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.menu-2 {
+    position: absolute;
+    color: white;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 247px;
+    gap: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu-1 a:hover{
+    color: rgb(6, 75, 9);
+}
+
+.menu-2 a:hover{
+    color: rgb(6, 75, 9);
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.ttf');
+}
