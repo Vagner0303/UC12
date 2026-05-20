@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 
-.fundo{
+.banner{
     position: absolute;
     top: 0;
     left: -5vh;
@@ -18,25 +18,65 @@ body{
     z-index: -1;
 }
 
-.logo{
-    position: absolute;
-    left: 655px;
-    display: flex;
-    width: 8vh;
-    height: 8vh;
-    
-
+.fundo{
+    position: relative;
+    width: 202vh;
+    top: 480px;
+    right: 0px;
 }
+
+.logo{
+    
+    position: absolute;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 10vh;
+    height: 10vh;
+    padding: 1vh 7vh;
+    
+}
+
+.icon{
+    position: absolute;
+    cursor: pointer;
+    top: -3.5vh;
+    left: -4vh;
+    width: 12vh;
+    height: 9.7vh;
+}
+
+.icon2{
+    position: absolute;
+    cursor: pointer;
+    top: -1vh;
+    left: -5.5vh;
+    width: 6vh;
+    height: 4.5vh;
+}
+
+.icon3{
+    position: absolute;
+    cursor: pointer;
+    top: -0.2vh;
+    left: 6.2vh;
+    width: 3.3vh;
+    height: 3.3vh;
+}
+
 
 header{
     position: relative;
-    margin: 33px auto;
+    margin: 30px auto;
+    left: 2vh;
     height: 86px;
-    width: 1438px;
+    width: 188vh;
     position: relative;
     z-index: 1000;
     display: flex;
-    border: 0.1px solid white;
+    border-top: 0.2px solid white;
+    border-bottom: 0.2px solid white;
     justify-content:center;
     align-items: center;
     padding: 15px 30px;
@@ -53,15 +93,18 @@ a{
     font-size: 12.5px;
     color: #ffffff;
 }
+.home{
+    color: rgb(60, 126, 30);
+    z-index: 1000;
+}
 
 .menu-1 { 
     position: absolute;
     display: flex;
     top: 0;
-    right: 267px;
+    right: 260px;
     gap: 50px;
-    text-decoration: none;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 
@@ -73,20 +116,49 @@ a{
     top: 0;
     left: 247px;
     gap: 50px;
-    text-decoration: none;
-    transition: 0.5s;
+    transition: 0.7s;
+}
+
+.menu-3{
+    position: absolute;
+    color: white;
+    right: 92vh;
+    display: flex;
+    top: 0;
+    transition: 0.7s;
+}
+
+.menu-4{
+    position: absolute;
+    color: white;
+    left: 97vh;
+    display: flex;
+    top: 0;
+    transition: 0.7s;
 }
 
 .menu-1 a:hover{
-    color: rgb(6, 75, 9);
+    color: rgb(60, 126, 30);
 }
 
 .menu-2 a:hover{
-    color: rgb(6, 75, 9);
+    color: rgb(60, 126, 30);
 }
 
+.menu-3 a:hover{
+    color: rgb(194, 194, 194);
+}
+
+.menu-4 a:hover{
+    color: rgb(194, 194, 194);
+}
+
+nav a{
+    text-decoration: none;
+}
 
 @font-face {
     font-family: 'Oswald';
     src: url('../fonts/Oswald-Bold.ttf');
 }
+
