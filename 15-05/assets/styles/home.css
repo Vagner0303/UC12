@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: red;
+    height: 30vh;
+}
+
+.container-filho{
+    background-color: palevioletred;
+    padding: 50px;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+header a:hover {
+color: red;
+}
+
+/*
+===================================================
+                   MOBILE
+===================================================
+*/
+
+@media (max-width: 800px){
+
+    .menu-mobile{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 55px;
+        right: 36px;
+        background-color: #111;
+        border-radius: 5px;
+        padding: 15px;
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    nav.clica{
+        display: flex;
+    }
+
+    .container-pai{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .container-filho{
+        width: 80vw;
+        height: 80vw;
+    }
+}
+
+@keyframes fadeIn {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+.fade-in{
+animation: fadeIn 0.5s ease forwards;
+
+}
