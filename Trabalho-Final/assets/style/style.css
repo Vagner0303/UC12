@@ -21,8 +21,41 @@ body{
 .fundo{
     position: relative;
     width: 202vh;
-    top: 480px;
+    top: 338px;
     right: 0px;
+}
+
+.texto-central{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    top: 20vh;
+    gap: 4px;
+}
+
+.texto-central .titulo {
+    font-family: "Oswald", "sans-serif";
+    font-size: 5.7vh;
+    color: #ffffff;
+}
+
+.texto-central .texto{
+    font-size: 2.1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.btn{
+    position: relative;
+    top: 4vh;
+    font-family: "Oswald", "sans-serif";
+    color: white;
+    background-color: #59815b;
+    padding: 1.5vh 6vh;
+    border: transparent;
+
 }
 
 .logo{
@@ -50,10 +83,10 @@ body{
 .icon2{
     position: absolute;
     cursor: pointer;
-    top: -1vh;
-    left: -5.5vh;
-    width: 6vh;
-    height: 4.5vh;
+    top: 0vh;
+    left: -4.3vh;
+    width: 3vh;
+    height: 2.5vh;
 }
 
 .icon3{
@@ -63,6 +96,46 @@ body{
     left: 6.2vh;
     width: 3.3vh;
     height: 3.3vh;
+}
+
+.icon-telefono{
+    position: absolute;
+    font-size: 10px;
+    left: 0vh;
+    top: -2.6vh;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon-gmail{
+    position: absolute;
+    font-size: 10px;
+    left: 15vh;
+    top: -2.5vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sociais{
+    position: absolute;
+    color: white;
+    font-family: "Crimson", "sans-serif";
+    font-size: 10px;
+    left: 172vh;
+    top: -3vh;
+    gap: 1.2vh;
+    display: flex;
+    align-items: center;
+}
+
+.sociais i{
+    cursor: pointer;
+}
+
+.sociais p{
+    display: flex;
+    font-size: 13.5px;
 }
 
 
@@ -102,7 +175,7 @@ a{
     position: absolute;
     display: flex;
     top: 0;
-    right: 260px;
+    right: 400px;
     gap: 50px;
     transition: 0.7s;
 }
@@ -114,7 +187,7 @@ a{
     position: relative;
     display: flex;
     top: 0;
-    left: 247px;
+    left: 100px;
     gap: 50px;
     transition: 0.7s;
 }
@@ -122,7 +195,7 @@ a{
 .menu-3{
     position: absolute;
     color: white;
-    right: 92vh;
+    right: 112vh;
     display: flex;
     top: 0;
     transition: 0.7s;
@@ -131,7 +204,7 @@ a{
 .menu-4{
     position: absolute;
     color: white;
-    left: 97vh;
+    left: 80vh;
     display: flex;
     top: 0;
     transition: 0.7s;
@@ -146,19 +219,89 @@ a{
 }
 
 .menu-3 a:hover{
-    color: rgb(194, 194, 194);
+    color: rgb(201, 200, 200);
 }
 
 .menu-4 a:hover{
-    color: rgb(194, 194, 194);
+    color: rgb(201, 200, 200);
+}
+
+.info a:hover{
+    color: rgb(201, 200, 200);
 }
 
 nav a{
     text-decoration: none;
 }
 
+.info{
+    position: absolute;
+    font-size: 10px;
+    left: 2.7vh;
+    top: -3vh;
+    display: flex;
+    gap: 6vh; 
+    align-items: center;
+}
+
+.gmail{
+    font-family: "Crimson", "sans-serif";
+    text-decoration: none;
+}
+
+.numero{
+    font-family: "Crimson", "sans-serif";
+    text-decoration: none;
+}
+
+
+.info-subtitulo{
+    position: relative;
+    left: 12vh;
+    top: 28.8vh;
+    display: flex;
+    justify-content: center;
+    gap: 6vh; 
+    align-items: center;
+}
+
+.info-subtitulo a {
+    font-size: 2.2vh;
+    font-family: "Crimson", "sans-serif";
+    text-decoration: none;
+}
+
+.icon-data{
+    position: relative;
+    left: 14.3vh;
+    top: 28.3vh;
+    display: flex;
+    justify-content: center;
+    gap: 6vh; 
+    align-items: center;
+}
+
+.icon-lapis{
+    position: relative;
+    left: 29.5vh;
+    top: 28.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-lapis i{
+    color: white;
+    font-size: 14px;
+}
+
+
 @font-face {
     font-family: 'Oswald';
     src: url('../fonts/Oswald-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/CrimsonText-SemiBoldItalic.ttf');
+}
