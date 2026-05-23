@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+a{
+    font-family: "Oswald", "sans-serif";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('../fonts/CrimsonText-SemiBoldItalic.ttf');
+}

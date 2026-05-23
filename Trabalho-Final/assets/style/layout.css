@@ -1,0 +1,74 @@
+header{
+    position: relative;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1810px;
+    min-height: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-top: 0.2px solid white;
+    border-bottom: 0.2px solid white;
+    flex-wrap: wrap;
+}
+
+.conteiner-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.segunda-tela{
+    position: relative;
+    top: 26vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    gap: 0.1px;
+}
+
+.terceira-tela{
+    position: relative;
+    top: 155vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 83vh;
+    font-size: 15px;
+    font-family: "Crimson", "sans-serif"; 
+    color: #000000;
+    gap: 0.1px;
+    z-index: 999999;
+}
+
+.quarta-tela{
+    position: relative;
+    top: 180vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    gap: 0.1px;
+}
+
+.final{
+    position: relative;
+    width: 100%;
+    top: 180vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #000000;
+    gap: 0.1px;
+}
